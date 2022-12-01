@@ -1,0 +1,29 @@
+--insert into Impiego values('Amministrazione','2022-05-10')
+--insert into Impiego values('Contabilita','2021-02-14')
+--insert into Impiego values('Magazzino','2020-07-18')
+--insert into Impiego values('Marketing','2021-01-13')
+--insert into Impiego values('Sviluppo','2019-09-21')
+--insert into Impiego values('Autista','2022-03-05')
+
+--select * from Impiegato where Eta >29
+--select * from Impiegato where RedditoMensile >= 800
+--select * from Impiegato where DetrazioneFiscale = 1
+--select * from Impiegato where DetrazioneFiscale <> 1
+--select * from Impiegato where Cognome like 'R%' order by Cognome asc
+--select count(IdImpiegato)as TotaleImpiegati from Impiegato 
+--select sum(RedditoMensile) as TotaleStipendi from impiegato
+--select avg(RedditoMensile) as MediaStipendi from impiegato
+--select max(RedditoMensile) as MassimoStipendi from impiegato
+--select min(RedditoMensile) as MinimoStipendi from impiegato
+
+
+--select Cognome, Nome, CodiceFiscale, DataAssunzione from Impiegato 
+--inner join 
+--Impiego 
+--on 
+--Impiegato.IdImpiego = Impiego.IdImpiego
+--where DataAssunzione between '2020-01-01' and '2022-12-31'
+
+
+
+--select avg(eta) as MediaEta from impiegato
